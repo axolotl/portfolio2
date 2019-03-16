@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import posed from 'react-pose';
-import { Container } from './header.css';
+import { Container, HR } from './header.css';
 import Title from 'components/title';
 import Nav from 'components/header/nav';
 
@@ -29,6 +29,8 @@ const Header = ({ title }) => (
         <Title as="h1" size="large">
           {title}
         </Title>
+        <HR />
+        <Title as="h2">web developer</Title>
       </Link>
 
       <Nav />

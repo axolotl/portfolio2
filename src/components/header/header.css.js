@@ -7,7 +7,7 @@ export const Container = styled.header`
   padding: 4rem;
 
   a {
-    color: #757575;
+    color: #222222;
     transition: color 0.2s ease;
     text-decoration: none;
 
@@ -15,4 +15,8 @@ export const Container = styled.header`
       color: inherit;
     }
   }
+`;
+
+export const HR = styled.hr`
+  margin: 0 0 0.5rem;
 `;
