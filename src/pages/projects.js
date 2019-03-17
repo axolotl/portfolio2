@@ -5,7 +5,7 @@ import { graphql } from 'gatsby';
 
 const Projects = ({ data }) => (
   <>
-    <Gallery items={data.homeJson.gallery} />
+    <Gallery items={data.projectsJson.gallery} />
   </>
 );
 
@@ -13,7 +13,7 @@ export default Projects;
 
 export const query = graphql`
   query ProjectsQuery {
-    homeJson {
+    projectsJson {
       gallery {
         title
         copy
