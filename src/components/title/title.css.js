@@ -5,10 +5,10 @@ export const Text = styled.span`
   display: block;
   font-weight: ${({ size }) => () => {
     switch (size) {
-      case 'large':
-        return '400';
+      // case 'large':
+      //   return '400';
       default:
-        return '500';
+        return '400';
     }
   }};
   font-size: ${({ size }) => () => {

@@ -23,19 +23,17 @@ const AnimatedContainer = posed.div({
 });
 
 const Header = ({ title }) => (
-  <AnimatedContainer>
-    <Container>
-      <Link to="/">
-        <Title as="h1" size="large">
-          {title}
-        </Title>
-        <HR />
-        <Title as="h2">web developer</Title>
-      </Link>
+  <Container>
+    <Link to="/">
+      <Title as="h1" size="large">
+        {title}
+      </Title>
+      <HR />
+      <Title as="h2">web developer</Title>
+    </Link>
 
-      <Nav />
-    </Container>
-  </AnimatedContainer>
+    <Nav />
+  </Container>
 );
 
 Header.propTypes = {

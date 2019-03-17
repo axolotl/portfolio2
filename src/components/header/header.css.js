@@ -15,6 +15,10 @@ export const Container = styled.header`
       color: inherit;
     }
   }
+
+  h1 a:hover {
+    color: #222222;
+  }
 `;
 
 export const HR = styled.hr`
