@@ -46,6 +46,8 @@ export default createGlobalStyle`
     -webkit-font-feature-settings: "pnum";
     font-feature-settings: "pnum";
     font-variant-numeric: proportional-nums;
+    max-width: 1080px;
+    margin: 0 auto;
   }
 
   ol, ul {
