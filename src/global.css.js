@@ -96,4 +96,12 @@ export default createGlobalStyle`
     margin-bottom: 2rem;
     font-family: Verdana;
   }
+
+  body::-webkit-scrollbar {
+    width: 0.5em;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+  }
 `;
