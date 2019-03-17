@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
 import Gallery from 'components/gallery';
@@ -9,7 +8,7 @@ import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
 
 const Index = ({ data }) => (
-  <Layout>
+  <>
     <Box>
       Hello
       {/* <Title as="h2" size="large">
@@ -28,7 +27,7 @@ const Index = ({ data }) => (
     {/* <Gallery items={data.homeJson.gallery} /> */}
     {/* <div style={{ height: '50vh' }} /> */}
     {/* <IOExample /> */}
-  </Layout>
+  </>
 );
 
 Index.propTypes = {

@@ -1,9 +1,9 @@
 import React from 'react';
-import Transition from 'components/transition';
+import LayoutWithTransition from 'components/layout-with-transition';
 import PropTypes from 'prop-types';
 
 const wrapPageElement = ({ element, props }) => {
-  return <Transition {...props}>{element}</Transition>;
+  return <LayoutWithTransition {...props}>{element}</LayoutWithTransition>;
 };
 
 wrapPageElement.propTypes = {
