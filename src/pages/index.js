@@ -6,6 +6,7 @@ import { graphql } from 'gatsby';
 import ContentWrapper from 'components/content-wrapper';
 import Text from 'components/text';
 import styled from 'styled-components';
+import { Link } from 'gatsby';
 
 const Index = ({ data }) => {
   const { headshot } = data.homeJson;
@@ -18,6 +19,7 @@ const Index = ({ data }) => {
           // style={{ position: 'absolute' }}
         />
         <Text large>Hello,</Text>
+        <div style={{ height: '1rem' }} />
         <Text>
           I am a full stack web developer proficient in JavaScript, React, Node,
           SQL, Python, and C.{' '}
@@ -26,6 +28,15 @@ const Index = ({ data }) => {
           I am passionate about clean code, effective communication, and systems
           thinking looking to join a team working to tackle complex business
           challenges.{' '}
+        </Text>
+        <div style={{ height: '2rem' }} />
+        <Text>
+          To learn more about me and my background, click{' '}
+          <Link to="/about">here</Link>.
+        </Text>
+        <Text>
+          {"To see projects I've done, click "}
+          <Link to="/projects">here</Link>.
         </Text>
       </Box>
     </ContentWrapper>
