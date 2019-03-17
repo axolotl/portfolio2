@@ -1,16 +1,16 @@
 {
   "gallery": [{
-    "title": "React Context",
-    "copy": "For global styles.",
-    "image": "../images/gallery/react-context.jpg"
+    "title": "Cadence",
+    "copy": "A scheduling app for small to medium businesses.",
+    "image": "../images/gallery/cadence.png"
   },
   {
-    "title": "Page Transitions",
+    "title": "Project Two",
     "copy": "Component-based for easy usage.",
     "image": "../images/gallery/page-transitions.jpg"
   },
   {
-    "title": "Intersection Observer",
+    "title": "Project Three",
     "copy": "Including a polyfill for Safari.",
     "image": "../images/gallery/intersection-observer.jpg"
   }]
