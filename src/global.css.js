@@ -76,7 +76,7 @@ export default createGlobalStyle`
   pre {
     display: block;
     padding: 2rem;
-    margin-top: 4rem;
+    margin-top: 1rem;
     overflow: auto;
     font-size: 85%;
     line-height: 1.45;

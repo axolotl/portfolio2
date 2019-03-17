@@ -1,5 +1,3 @@
-Find the repository [on GitHub](https://github.com/fabe/gatsby-universal).
-
 ```
 # Installation
 gatsby new my-site https://github.com/fabe/gatsby-universal

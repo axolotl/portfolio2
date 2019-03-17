@@ -3,9 +3,10 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Box from 'components/box';
 import Head from 'components/head';
+import ContentWrapper from 'components/content-wrapper';
 
 const About = ({ data }) => (
-  <>
+  <ContentWrapper>
     <Head pageTitle={data.aboutJson.title} />
     <Box>
       <div
@@ -14,7 +15,7 @@ const About = ({ data }) => (
         }}
       />
     </Box>
-  </>
+  </ContentWrapper>
 );
 
 About.propTypes = {

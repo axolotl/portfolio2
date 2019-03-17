@@ -1,33 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Box from 'components/box';
-import Title from 'components/title';
-import Gallery from 'components/gallery';
-import IOExample from 'components/io-example';
-import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
+import ContentWrapper from 'components/content-wrapper';
 
 const Index = ({ data }) => (
-  <>
-    <Box>
-      Hello
-      {/* <Title as="h2" size="large">
-        {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
-      </Title> */}
-      {/* <Modal>
-        <video
-          src="https://i.imgur.com/gzFqNSW.mp4"
-          playsInline
-          loop
-          autoPlay
-          muted
-        />
-      </Modal> */}
-    </Box>
-    {/* <Gallery items={data.homeJson.gallery} /> */}
-    {/* <div style={{ height: '50vh' }} /> */}
-    {/* <IOExample /> */}
-  </>
+  <ContentWrapper>
+    <Box withLeftBorder>Hello</Box>
+  </ContentWrapper>
 );
 
 Index.propTypes = {
@@ -44,17 +24,6 @@ export const query = graphql`
         childMarkdownRemark {
           html
           rawMarkdownBody
-        }
-      }
-      gallery {
-        title
-        copy
-        image {
-          childImageSharp {
-            fluid(maxHeight: 500, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
         }
       }
     }
