@@ -42,6 +42,7 @@ const About = ({ data }) => (
   <ContentWrapper>
     <Head pageTitle={data.aboutJson.title} />
     <Box withLeftBorder>
+      <Big>Projects</Big>
       <Title large>Cadence</Title>
       <Link href="https://getcadence.co/">Visit</Link>
       <Link href="https://github.com/Lambda-School-Labs/labs9-employee-scheduler">
@@ -112,13 +113,24 @@ const About = ({ data }) => (
 );
 
 const Title = styled.h2`
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #222222;
   line-height: 1.5;
   -webkit-letter-spacing: 0.25px;
   -moz-letter-spacing: 0.25px;
   -ms-letter-spacing: 0.25px;
   letter-spacing: 0.25px;
+`;
+
+const Big = styled.h2`
+  font-size: 3.5rem;
+  color: #222222;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.25px;
+  -moz-letter-spacing: 0.25px;
+  -ms-letter-spacing: 0.25px;
+  letter-spacing: 0.25px;
+  margin-bottom: 2rem;
 `;
 
 const Link = styled.a`
