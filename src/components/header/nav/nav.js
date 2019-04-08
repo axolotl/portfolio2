@@ -8,11 +8,11 @@ import GitHubIcon from '../../../images/icons/github.svg';
 const Nav = () => (
   <Container>
     <ul>
-      <li>
+      {/* <li>
         <LinkBox>
           <StyledLink to="/about">About</StyledLink>
         </LinkBox>
-      </li>
+      </li> */}
       <li>
         <LinkBox>
           <StyledLink to="/projects">Projects</StyledLink>

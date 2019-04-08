@@ -26,14 +26,14 @@ const Index = ({ data }) => {
         </Text>
         <Text>
           I am passionate about clean code, effective communication, and systems
-          thinking looking to join a team working to tackle complex business
+          thinking and looking to join a team working to tackle complex business
           challenges.{' '}
         </Text>
         <div style={{ height: '2rem' }} />
-        <Text>
+        {/* <Text>
           To learn more about me and my background, click{' '}
           <Link to="/about">here</Link>.
-        </Text>
+        </Text> */}
         <Text>
           {"To see projects I've done, click "}
           <Link to="/projects">here</Link>.
