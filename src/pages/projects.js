@@ -100,8 +100,8 @@ const About = ({ data }) => (
       </Text>
 
       <Title large>Story of Keswick</Title>
-      <Link href="https://github.com/axolotl/keswick-book-site">Visit</Link>
-      <Link href="http://storyofkeswick.com/">GitHub</Link>
+      <Link href="http://storyofkeswick.com/">Visit</Link>
+      <Link href="https://github.com/axolotl/keswick-book-site">GitHub</Link>
       <Text>
         I rebuilt this marketing website from WayBack Machine archives. The
         original developer had let the host expire and lost the build
