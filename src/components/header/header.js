@@ -12,7 +12,7 @@ const Header = ({ title }) => (
         {title}
       </Title>
       <HR />
-      <Title as="h2">web developer</Title>
+      <Title as="h2">software developer</Title>
     </Link>
 
     <Nav />

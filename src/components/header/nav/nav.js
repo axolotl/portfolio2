@@ -20,21 +20,33 @@ const Nav = () => (
       </li>
       <li>
         <IconBox>
-          <a href="https://github.com/axolotl">
+          <a
+            href="https://github.com/axolotl"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <GitHubIcon />
           </a>
         </IconBox>
       </li>
       <li>
         <IconBox>
-          <a href="https://twitter.com/samuelmachat">
+          <a
+            href="https://twitter.com/samuelmachat"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <TwitterIcon />
           </a>
         </IconBox>
       </li>
       <li>
         <IconBox>
-          <a href="https://www.linkedin.com/in/samuel-machat/">
+          <a
+            href="https://www.linkedin.com/in/samuel-machat/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <LinkedInIcon />
           </a>
         </IconBox>
